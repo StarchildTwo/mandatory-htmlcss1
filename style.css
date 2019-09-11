@@ -57,6 +57,7 @@ tbody>tr:nth-child(2n + 1) {
 .topic {
     align-items: flex-end;
     margin: auto;
+    color: white;
 }
 
 .hlinksch {
@@ -97,4 +98,28 @@ tbody>tr:nth-child(2n + 1) {
 
 .fc {
     text-align: center;
+}
+
+.list-cont {
+    width: 200px;
+    margin: auto;
+
+}
+
+.disclaimer {
+    font-size: 6px;
+}
+
+.form-cont {
+    width: 350px;
+    margin: auto;
+}
+
+.form {
+    text-align: left;
+}
+
+input,
+label {
+    padding: 10px;
 }
