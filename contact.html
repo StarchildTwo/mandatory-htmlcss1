@@ -23,10 +23,11 @@
                 <a class="hlinksch" href="./links.html">Länkar</a>
                 <a class="hlinksch1" href="./contact.html">Kontakt</a>
             </div>
+            <div class="colorline"></div>
         </header>
         <section class="body">
             <div class="cntnt">
-                <h3>Här kan du kontakta mig för vidare frågor*</h3>
+                <h3>Här kan du kontakta mig för vidare frågor</h3>
                 <div class="form-cont">
                     <form class="form" action="">
                         <fieldset>
@@ -36,32 +37,39 @@
                             <label for="email">Email</label>
                             <input type="email" name="" id="email" placeholder="example@mail.com" required><br>
 
-                            <label for="message">What is your matter?</label>
+                            <label for="message">What is your matter?</label><br>
                             <select name="" id="message" required>
                                 <option value="">Choose from this list:</option>
                                 <option value="contact">Get in touch with me</option>
-                                <option value="bug">Report a bug?</option>
-                                <option value="complaints">Complaints?</option>
-                                <option value="other">other</option>
+                                <option value="bug">Report a bug</option>
+                                <option value="complaints">Complaints</option>
+                                <option value="other">Other</option>
                             </select><br>
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Write your message here."
+                            <label for="freetext"></label>
+                            <textarea name="" id="freetext" cols="30" rows="10" placeholder="Write your message here."
                                 required></textarea>
-                            <button type="submit">Submit</button>
+                            <button class="btn-submit" type="submit">Submit</button>
                         </fieldset>
                     </form>
                 </div>
-                <p class="disclaimer">* Dock först när jag har lärt mig backend så att detta formulär faktiskt når fram
-                    till mig.</p>
             </div>
         </section>
 
         <footer class="footer">
-            <div class="fc">
-                <p>Kontakta mig:</p>
-                <p>Email: mail@gmail.com</p>
-                <p>website: http://www.hemsida.net</p>
-                <a href="https://github.com/StarchildTwo"><img src="./assets/GitHub-Mark-32px.png" alt="octocat"></a>
-                <a href=""><img src="" alt=""></a>
+            <div class="colorline2"></div>
+            <!-- <div class="fc">
+                    <p>Kontakta mig:</p>
+                    <p>Email: mail@gmail.com</p>
+                    <p>website: http://www.hemsida.net</p>
+                </div> -->
+            <div class="fc2">
+                <a href="https://github.com/StarchildTwo"><img src="./assets/GitHub-Mark-Light-32px.png"
+                        alt="Octocat"></a>
+                <a href="https://www.facebook.com"><img class="fb-logo"
+                        src="./assets/f-Logos-2019-1-2/f_Logo_Online_04_2019/white/PNG/f_logo_RGB-White_58.png"
+                        alt="Facebook-logo"></a>
+                <a href="https://www.twitter.com"><img class="tw-logo" src="./assets/twitter-4-32.png"
+                        alt="Twitter-lolo"></a>
             </div>
         </footer>
     </section>

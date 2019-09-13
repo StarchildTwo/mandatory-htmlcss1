@@ -1,16 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400i&display=swap');
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(71, 71, 71);
+    color: white;
 }
 
 .header {
-    background-color: teal;
+    background-color: rgb(33, 32, 36);
     height: 200px;
     margin: auto;
     padding-top: 30px;
+    position: relative;
 }
 
 .body {
@@ -26,6 +32,7 @@ body {
 table {
     border-collapse: collapse;
     text-align: left;
+    margin: 25px;
 }
 
 td,
@@ -41,7 +48,7 @@ tbody>tr:nth-child(2n + 1) {
 }
 
 .base {
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto;
 }
 
@@ -58,12 +65,13 @@ tbody>tr:nth-child(2n + 1) {
     align-items: flex-end;
     margin: auto;
     color: white;
+    font-size: 36px;
 }
 
 .hlinksch {
     padding: 0 15 0 15px;
     margin: 10px;
-    border: 2px solid white;
+    border: 2px solid rgb(33, 32, 36);
     border-radius: 30px;
     text-decoration: none;
     font-size: 25px;
@@ -71,8 +79,8 @@ tbody>tr:nth-child(2n + 1) {
 }
 
 .hlinksch1 {
-    background-color: orange;
-    border: 2px solid white;
+    background-color: rgba(245, 95, 49, 0.925);
+    border: 2px solid rgb(33, 32, 36);
     border-radius: 30px;
     padding: 0 15 0 15px;
     margin: 10px;
@@ -80,6 +88,23 @@ tbody>tr:nth-child(2n + 1) {
     font-size: 25px;
     color: white;
 
+}
+
+.colorline {
+    height: 15px;
+    width: 100%;
+    background: rgba(32, 32, 36, 0.99);
+    background: -moz-linear-gradient(left, rgba(32, 32, 36, 0.99) 0%, rgba(32, 32, 36, 0.99) 12%, rgba(245, 95, 49, 1) 50%, rgba(71, 71, 71, 1) 87%, rgba(71, 71, 71, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(32, 32, 36, 0.99)), color-stop(12%, rgba(32, 32, 36, 0.99)), color-stop(50%, rgba(245, 95, 49, 1)), color-stop(87%, rgba(71, 71, 71, 1)), color-stop(100%, rgba(71, 71, 71, 1)));
+    background: -webkit-linear-gradient(left, rgba(32, 32, 36, 0.99) 0%, rgba(32, 32, 36, 0.99) 12%, rgba(245, 95, 49, 1) 50%, rgba(71, 71, 71, 1) 87%, rgba(71, 71, 71, 1) 100%);
+    background: -o-linear-gradient(left, rgba(32, 32, 36, 0.99) 0%, rgba(32, 32, 36, 0.99) 12%, rgba(245, 95, 49, 1) 50%, rgba(71, 71, 71, 1) 87%, rgba(71, 71, 71, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(32, 32, 36, 0.99) 0%, rgba(32, 32, 36, 0.99) 12%, rgba(245, 95, 49, 1) 50%, rgba(71, 71, 71, 1) 87%, rgba(71, 71, 71, 1) 100%);
+    background: linear-gradient(to right, rgba(32, 32, 36, 0.99) 0%, rgba(32, 32, 36, 0.99) 12%, rgba(245, 95, 49, 1) 50%, rgba(71, 71, 71, 1) 87%, rgba(71, 71, 71, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#202024', endColorstr='#474747', GradientType=1);
+    position: absolute;
+    top: 185;
+    left: 0;
+    right: 0;
 }
 
 .hlinks {
@@ -92,12 +117,36 @@ tbody>tr:nth-child(2n + 1) {
 }
 
 .footer {
-    background-color: darkgrey;
-    height: 200px;
+    background-color: rgb(33, 32, 36);
+    height: 120px;
+    width: 100%;
+    position: relative;
 }
 
-.fc {
-    text-align: center;
+.colorline2 {
+    height: 15px;
+    width: 100%;
+    background: rgba(71, 71, 71, 1);
+    background: -moz-linear-gradient(left, rgba(71, 71, 71, 1) 0%, rgba(71, 71, 71, 1) 13%, rgba(245, 95, 49, 1) 50%, rgba(32, 32, 36, 0.99) 88%, rgba(32, 32, 36, 0.99) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(71, 71, 71, 1)), color-stop(13%, rgba(71, 71, 71, 1)), color-stop(50%, rgba(245, 95, 49, 1)), color-stop(88%, rgba(32, 32, 36, 0.99)), color-stop(100%, rgba(32, 32, 36, 0.99)));
+    background: -webkit-linear-gradient(left, rgba(71, 71, 71, 1) 0%, rgba(71, 71, 71, 1) 13%, rgba(245, 95, 49, 1) 50%, rgba(32, 32, 36, 0.99) 88%, rgba(32, 32, 36, 0.99) 100%);
+    background: -o-linear-gradient(left, rgba(71, 71, 71, 1) 0%, rgba(71, 71, 71, 1) 13%, rgba(245, 95, 49, 1) 50%, rgba(32, 32, 36, 0.99) 88%, rgba(32, 32, 36, 0.99) 100%);
+    background: -ms-linear-gradient(left, rgba(71, 71, 71, 1) 0%, rgba(71, 71, 71, 1) 13%, rgba(245, 95, 49, 1) 50%, rgba(32, 32, 36, 0.99) 88%, rgba(32, 32, 36, 0.99) 100%);
+    background: linear-gradient(to right, rgba(71, 71, 71, 1) 0%, rgba(71, 71, 71, 1) 13%, rgba(245, 95, 49, 1) 50%, rgba(32, 32, 36, 0.99) 88%, rgba(32, 32, 36, 0.99) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#474747', endColorstr='#202024', GradientType=1);
+    position: absolute;
+    bottom: 120;
+}
+
+.footer.one {
+    position: absolute;
+    bottom: 0;
+}
+
+.fc2 {
+    position: absolute;
+    bottom: 10;
+    left: 10;
 }
 
 .list-cont {
@@ -119,7 +168,35 @@ tbody>tr:nth-child(2n + 1) {
     text-align: left;
 }
 
-input,
-label {
+input {
     padding: 10px;
+    margin: 5px;
+    margin-left: 15px;
+
+}
+
+select {
+    padding: 10px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+label {
+    margin: 5px;
+}
+
+.fb-logo {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-submit {
+    padding: 10px;
+    margin: 5px;
+    margin-left: 10px;
+}
+
+li>a {
+    text-decoration-color: white;
+    color: white;
 }
