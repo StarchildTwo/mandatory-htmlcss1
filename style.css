@@ -25,8 +25,20 @@ body {
 
 }
 
-.cntnt {
+.rubrik {
     text-align: center;
+}
+
+
+.bild {
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.cntnt {
+    text-align: left;
+    padding-bottom: 10px;
 }
 
 table {
@@ -169,11 +181,13 @@ tbody>tr:nth-child(2n + 1) {
 }
 
 input {
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin: 5px;
     margin-left: 15px;
 
 }
+
 
 select {
     padding: 10px;
